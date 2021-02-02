@@ -3,3 +3,5 @@ theme: material
 nav:
     - Home: index.md
     - Handbook: handbook.md
+    - Programming:
+          - Jetbrains Tools: jetbrains.md
