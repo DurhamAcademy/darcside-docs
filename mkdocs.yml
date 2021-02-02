@@ -1,0 +1,4 @@
+site_name: DARCSIDE Docs
+theme: material
+nav:
+    - Home: home.md
