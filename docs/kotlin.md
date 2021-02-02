@@ -1,0 +1,5 @@
+# Kotlin Resources
+
+Kotlin is the programming language used to develop Robot code. For more information, see below:
+
+[Kotlin Introduction](https://play.kotlinlang.org/byExample/01_introduction/01_Hello%20world)

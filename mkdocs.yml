@@ -5,3 +5,6 @@ nav:
     - Handbook: handbook.md
     - Programming:
           - Jetbrains Tools: jetbrains.md
+          - Github: github.md
+          - Kotlin: kotlin.md
+          - RoboRio: roborio.md
