@@ -36,6 +36,9 @@ nav:
         - Github: software/github.md
         - Kotlin: software/kotlin.md
         - RoboRio: software/roborio.md
+    - Getting Help:
+        - Discord: gettinghelp/discord.md
+        - Chief Delphi: gettinghelp/chiefdelphi.md
 repo_url: https://github.com/DurhamAcademy/darcside-docs
 repo_name: darcside-docs
 edit_uri: edit/main/docs/
