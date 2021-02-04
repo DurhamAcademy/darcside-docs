@@ -1,10 +1,40 @@
-site_name: DARCSIDE Docs
-theme: material
+site_name: DARC SIDE Docs
+theme: 
+    name: material
+    favicon: assets/images/MOON_LIGHT.png
+    logo: assets/images/MOON_LIGHT.png
+    icon:
+        repo: fontawesome/brands/github
+    palette:
+        scheme: slate
+    features:
+        - navigation.sections
+        - navigation.tabs
+extra_css:
+    - assets/stylesheets/extra.css
+extra_javascript:
+    - assets/js/mathjax.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+markdown_extensions:
+    - attr_list
+    - admonition
+    - pymdownx.highlight
+    - pymdownx.superfences
+    - pymdownx.arithmatex:
+        generic: true
 nav:
-    - Home: index.md
-    - Handbook: handbook.md
-    - Programming:
-          - Jetbrains Tools: jetbrains.md
-          - Github: github.md
-          - Kotlin: kotlin.md
-          - RoboRio: roborio.md
+    - General: 
+        - Home: index.md
+        - Style Test: styletest.md
+        - Administrative:
+            - Handbook: administrative/handbook.md
+    - Software:
+        - Tools:
+          - Jetbrains IDEs: software/tools/jetbrains.md
+        - Github: software/github.md
+        - Kotlin: software/kotlin.md
+        - RoboRio: software/roborio.md
+repo_url: https://github.com/DurhamAcademy/darcside-docs
+repo_name: darcside-docs
+edit_uri: edit/main/docs/
