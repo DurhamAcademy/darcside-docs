@@ -32,6 +32,7 @@ nav:
     - Software:
         - Tools:
           - Jetbrains IDEs: software/tools/jetbrains.md
+          - IntelliJ: software/tools/intellij.md
         - Github: software/github.md
         - Kotlin: software/kotlin.md
         - RoboRio: software/roborio.md
