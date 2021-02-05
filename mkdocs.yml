@@ -24,11 +24,12 @@ markdown_extensions:
     - pymdownx.arithmatex:
         generic: true
 nav:
-    - General: 
-        - Home: index.md
+    - Home: index.md
+    - General:
         - Style Test: styletest.md
         - Administrative:
             - Handbook: administrative/handbook.md
+            - Style Guide: administrative/styleguide.md
     - Software:
         - Tools:
           - Jetbrains IDEs: software/tools/jetbrains.md
