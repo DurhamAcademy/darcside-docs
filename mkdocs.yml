@@ -1,44 +1,49 @@
 site_name: DARC SIDE Docs
 theme: 
-    name: material
-    favicon: assets/images/MOON_LIGHT.png
-    logo: assets/images/MOON_LIGHT.png
-    icon:
-        repo: fontawesome/brands/github
-    palette:
-        scheme: slate
-    features:
-        - navigation.sections
-        - navigation.tabs
+  name: material
+  favicon: assets/images/MOON_LIGHT.png
+  logo: assets/images/MOON_LIGHT.png
+  icon:
+      repo: fontawesome/brands/github
+  palette:
+      scheme: slate
+  features:
+      - navigation.sections
+      - navigation.tabs
 extra_css:
-    - assets/stylesheets/extra.css
+  - assets/stylesheets/extra.css
 extra_javascript:
-    - assets/js/mathjax.js
-    - https://polyfill.io/v3/polyfill.min.js?features=es6
-    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - assets/js/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 markdown_extensions:
-    - attr_list
-    - admonition
-    - pymdownx.highlight
-    - pymdownx.superfences
-    - pymdownx.arithmatex:
-        generic: true
+  - attr_list
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 nav:
-    - General: 
-        - Home: index.md
-        - Style Test: styletest.md
-        - Administrative:
-            - Handbook: administrative/handbook.md
-    - Software:
-        - Tools:
-          - Jetbrains IDEs: software/tools/jetbrains.md
-          - IntelliJ: software/tools/intellij.md
-        - Github: software/github.md
-        - Kotlin: software/kotlin.md
-        - RoboRio: software/roborio.md
+  - General: 
+    - Home: index.md
+    - Administrative:
+      - Handbook: administrative/handbook.md
     - Getting Help:
-        - Discord: gettinghelp/discord.md
-        - Chief Delphi: gettinghelp/chiefdelphi.md
+        - Documentation: getting-help/documentation.md
+        - Discord: getting-help/discord.md
+        - Chief Delphi: getting-help/chiefdelphi.md
+  - Software:
+    - Tools:
+      - Jetbrains IDEs: software/tools/jetbrains.md
+    - Setup:
+      - IntelliJ IDEA: software/tools/intellij.md
+    - GitHub: software/github.md
+    - Kotlin: software/kotlin.md
+    - RoboRio: software/roborio.md
+   
 repo_url: https://github.com/DurhamAcademy/darcside-docs
 repo_name: darcside-docs
 edit_uri: edit/main/docs/
