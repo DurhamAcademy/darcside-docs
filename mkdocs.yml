@@ -43,6 +43,15 @@ nav:
     - GitHub: software/github.md
     - Kotlin: software/kotlin.md
     - RoboRio: software/roborio.md
+  - Electrical:
+    - Components:
+      - RoboRIO: electrical/roborio.md
+      - Speed Controllers: electrical/speed-controllers.md
+      - Encoders: electrical/encoders.md
+    - Communication:
+      - CAN: electrical/can.md
+      - PWM: electrical/pwm.md
+      - Robot Networking: electrical/robot-networking.md
    
 repo_url: https://github.com/DurhamAcademy/darcside-docs
 repo_name: darcside-docs
